@@ -28,12 +28,15 @@ layout: default
 ---
 
 ## ACADEMIC PROJECTS
+  
 ### LEAGUE OF TOWERS
 #### Software Engineering II / Winter 2021
 - Created a desktop-based multiplayer game to interact with your friends and family virtually during COVID-19 pandemic using C# and Unity. 
+  
 ### AWEMANY BOOKS
 #### Software Engineering I / Winter 2020
 - Created a book searching application that shows the books general information and where the user could potentially purchase it.
+  
 ### POINT OF SALE
 #### Object Oriented Programming / Summer 2019
 - Implemented the back-end of a Point of Sale system using Java.
@@ -53,7 +56,8 @@ Year | Category
 ---
 
 ## Contact Information: 
-Address | Phone number | Email | 
-:-----: | :--------: | :--------: | 
-819-3000 Pembina Hwy, Winnipeg, R3T 3Z2 | (204) 887-4901| karimban@myumanitoba.ca
+  
+| Address | Phone number | Email | 
+| :-----: | :--------: | :--------: | 
+| 819-3000 Pembina Hwy, Winnipeg, R3T 3Z2 | (204) 887-4901| karimban@myumanitoba.ca |
 
