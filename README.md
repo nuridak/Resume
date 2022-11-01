@@ -1,7 +1,7 @@
 # How to host your resume as a static website
 
 ### [Demo Website](http://nuridak.github.io/Resume)  
-![](demo.gif)
+![This is Demo Gif](demo.gif)
 
 This is a quick tutorial to teach you how to host and format your resume as a static website using Markdown, GiHub Pages and Jekyll.  
 
@@ -32,7 +32,7 @@ For this tutorial I used:
     - Refer to the [How to setup GitHub Pages](#how-to-setup-github-pages)
 - Static site generator: [**Jekyll**](https://jekyllrb.com)
     - Refer to the [How to setup Jekyll](#how-to-setup-jekyll)
-- Interface to interact with GitHub[**GitHub Desktop**](https://desktop.github.com)
+- Interface to interact with [**GitHub Desktop**](https://desktop.github.com)
     - We will need it to clone repositories from GitHub and pushing our changes to it
 - [GitHub account](https://github.com) 
     - You would need to register a new account on GitHub, if you do not have one
@@ -100,6 +100,7 @@ For this tutorial I used:
     > `echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile`  
     > `echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile`  
     > `echo "chruby ruby-3.1.2" >> ~/.bash_profile`  
+  
 NOTES:  
 - Replace **3.1.2** with the version of ruby that you installed  
 3. Close and Open Terminal  
@@ -127,9 +128,7 @@ NOTES:
 
 
 ## Acknowledgments
-  - [crispgm](https://github.com/crispgm/resume) for the Resume template
-  - 
-
+  - [ankitsultana](https://github.com/ankitsultana/researcher) for the Resume template
 
 ## FAQs
 
