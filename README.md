@@ -1,6 +1,6 @@
 # How to host your own Resume
 
-### [Demo Website](http://nuridak.github.io/resume) 
+### [Demo Website](http://nuridak.github.io/Resume) 
 
 Initially appeared on
 [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
