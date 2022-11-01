@@ -1,14 +1,6 @@
-Audience: CS Student
-Venue: README on GitHub Pages
-Purpose: Explain how to host a resume on GitHub Pages.
-Additional purpose: Introduce and demonstrate the principles of Andrew Etter's
-book Modern Technical Writing
-Desired Reaction: CS Student should be able to understand some of the concepts of the technical communication,  and be able to recreate the Resume project by following the instructions from the README.md
-Vocabulary: Partially technical
-Tone: Not too formal
 # How to host your own Resume
 
-This 
+### [Demo Website](http://nuridak.github.io/resume) 
 
 Initially appeared on
 [gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
@@ -21,7 +13,11 @@ For this project you will need:
 Basic knowledge of git commands
  - for more info can watch this tutorial
 
-
+### Tools used
+- MacOS: Big Sur
+- VisualStudio Code 
+- Terminal
+- 
 
 
 These instructions will give you a copy of the project up and running on
