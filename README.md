@@ -1,6 +1,6 @@
 # How to host your resume as a static website
 
-### [Demo Website](http://nuridak.github.io/Resume)  
+### [Demo Website](http://nuridak.github.io/resume)  
 ![This is Demo Gif](demo.gif)
 
 This is a quick tutorial to teach you how to host and format your resume as a static website using Markdown, GiHub Pages and Jekyll.  
@@ -128,7 +128,7 @@ NOTES:
 
 
 ## Acknowledgments
-  - [ankitsultana](https://github.com/ankitsultana/researcher) for the Resume template
+  - [ankitsultana](https://github.com/ankitsultana/researcher) for the resume template
 
 ## FAQs
 
