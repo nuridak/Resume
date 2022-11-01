@@ -1,0 +1,19 @@
+title: Nurida Karimbaeva
+url: "http://nuridak.github.io"
+baseurl: "/resume"
+
+markdown: kramdown
+
+tracking_id: #
+
+footer: no
+
+sass:
+    style: compressed
+    sass_dir: _sass
+
+nav:
+ - name: "About"
+   link: "/resume/"
+ - name: "Resume"
+   link: "resume.pdf"
