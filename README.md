@@ -1,4 +1,4 @@
-# How to host your resume as a static website
+# How to host a resume on GitHub Pages.
 
 ### [Demo Website](http://nuridak.github.io/resume)  
 ![This is Demo Gif](demo.gif)
