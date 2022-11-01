@@ -53,5 +53,7 @@ Year | Category
 ---
 
 ## Contact Information: 
+Address | Phone number | Email | 
+:-----: | :--------: | :--------: | 
 819-3000 Pembina Hwy, Winnipeg, R3T 3Z2 | (204) 887-4901| karimban@myumanitoba.ca
 
