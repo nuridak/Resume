@@ -56,13 +56,21 @@ For this tutorial I used:
     - The box next to **main** as _/(root)_  
 6. Click **Save** 
 
-#### Clone repository to the computer
+#### Setup the repository with files
 1. Go to **_yourusername.github.io_**  
-2. Copy the link 
+2. Copy the link: 
 ![This is copy demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/copyLink.gif)
 3. Open the GitHub Desktop
-4. Clone repository
-![This is copy demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/cloneRepo.gif)
+4. Clone repository by pasting the link that we have copied:
+![This is clone demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/cloneRepo.gif)
+5. Download files from [this](https://github.com/nuridak/nuridak.github.io) repository into the created **_yourusername.github.io_** folder on your computer  
+
+#### Edit and format resume
+1. Copy content of your **_resume.md_** file
+2. Replace everything inside of the **_index.md_** with copied content
+3. Edit **_'_config.yml_** :
+![This is format demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/cloneRepo.gif)
+
 
 
 ### How to setup Jekyll
