@@ -103,7 +103,7 @@ For this tutorial I used:
 3. Enjoy your own static website :tada:
 
 ### NOTES:
-- For these Instructions I also followed another principle of modern technical writing, saying that it is common to use bold for user interface elements.
+- Another principle of modern technical writing that I followed for these instructions says that it is common to use bold for user interface elements.
 
 ## More Resources
 
@@ -142,6 +142,7 @@ For this tutorial I used:
 
 ### Why is Markdown better than a word processor?
 - Andrew Etter says that Markdown is better than a word processor because of the reasons like:
-    1. Markdown is much more human-readable, while word processor much more challenging 
-    2. Markdown is pretty straightforward to learn, while word processor requires a knowledge of a lot of tags
-    3. Markdown takes much less "text" space compared to a word processor
+    - Markdown is much easier to read, write, and understand
+    - Markdown is pretty straightforward to learn, while word processor requires a knowledge of a lot of tags
+    - Markdown takes much less "text" space compared to a word processor
+    - Markdown is compatible with many static site generators
