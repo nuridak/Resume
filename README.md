@@ -1,6 +1,6 @@
 # How to host a resume on GitHub Pages.
 
-### [Demo Website](http://nuridak.github.io/resume)  
+### [Demo Website](http://nuridak.github.io/)  
 
 ## Purpose
 
