@@ -35,14 +35,15 @@ For this tutorial I used:
 - [**Jekyll**](https://jekyllrb.com) is a static site generator
     - For installing Jekyll on operating systems other than macOS refer to [this page](https://jekyllrb.com/docs/installation/#requirements)
     - The main problem with installing Jekyll on macOS is associated with using the right ruby version. Thus, I will guide you through the process.
-    - Even though you can create static sites from scratch by yourself, generators like Jekyll make this work much easier, you just have to install it properly. :grinning: I chose to work with Jekyll because, as Andrew Etter said, Jekyll is the most popular static site generator meaning there are much more resources available. 
+    - Even though you can create static sites from scratch by yourself, generators like Jekyll make this work much easier, you just have to install it properly. :grinning: I chose to work with Jekyll because, as Andrew Etter said, Jekyll is the most popular static site generator meaning there are much more resources available. This follows his principle of _“Make Static Websites”_
 
 #### Install Jekyll
 1. Follow instructions from the [jekyllSetup.md](https://github.com/nuridak/nuridak.github.io/blob/main/extra/jekyllSetup.md) file to install Jekyll
 
 ### How to setup GitHub Pages  
 - [**GitHub Pages**](https://pages.github.com) is a static site hosting service. 
-    - Andrew Etter mentions GitHub Desktop as one of the interface options for the version control. The terminal is always available for use, however many people still prefer to use version control for basic commands and GUI makes workflow much more convenient to use. Andrew argues that version control allows for easier and more convenient contribution and distribution. For example, right now you will learn how to use version control to clone repository of another person, make changes to it, and push those changes to your own repository.
+    - Andrew Etter mentions GitHub Desktop as one of the interface options for the version control. The terminal is always available for use, however many people still prefer to use version control for basic commands and GUI makes workflow much more convenient to use. Andrew argues that version control allows for easier and more convenient contribution and distribution since you can make local changes, push and revise later. This follows his principle of _“Use Distributed Version Control”_
+    - For example, right now you will learn how to use version control to clone repository of another person, make changes to it, and push those changes to your own repository.
 
 #### Register a [GitHub account](https://github.com) 
 1. Go to [GitHub](https://github.com)  
@@ -74,6 +75,10 @@ For this tutorial I used:
 ![This is clone demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/cloneRepo.gif)
 5. Download files from [this](https://github.com/nuridak/nuridak.github.io) repository into the created **_yourusername.github.io_** folder on your computer  
 
+### How to Format Resume and host it  
+- [**Markdown**](https://www.markdownguide.org) is the most widely used lightweight markup language. 
+    - Andrew Etter names Markdown as “simultaneously incredible and infuriating, wonderful and maddening” language. You can go to the [FAQs](#faqs) to know what are some reasons for this admiration. This follows his principle of _“Use Lightweight Markup”_
+
 #### Edit and format resume
 1. Copy content of your **_resume.md_** file
 2. Replace everything inside of the **_index.md_** with copied content
@@ -84,13 +89,21 @@ For this tutorial I used:
 6. (SUGGESTED) Delete **src** and **extra** folders
 
 #### Push your changes to the repository
-1. Follow the steps shown below:
+1. Go to GitHub Desktop
+2. Select the **_yourusername.github.io_** repository
+3. Select all of the files changed
+4. Write a comment 
+5. Click **Commit to main**
+6. Click **Push origin**
 ![This is push demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/pushDemo.gif)
 
 #### View your website :sparkles:
 1. Open browser
 2. Go to the **_https://yourusername.github.io_**  
 3. Enjoy your own static website :tada:
+
+### NOTES:
+- For these Instructions I also followed another principle of modern technical writing, saying that it is common to use bold for user interface elements.
 
 ## More Resources
 
