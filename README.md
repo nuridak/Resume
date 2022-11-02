@@ -1,6 +1,7 @@
 # How to host a resume on GitHub Pages.
 
 ### [Demo Website](http://nuridak.github.io/)  
+![This is resume demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/editYml.gif)
 
 ## Purpose
 
@@ -39,10 +40,9 @@ For this tutorial I used:
 #### Install Jekyll
 1. Follow instructions from the [jekyllSetup.md](https://github.com/nuridak/nuridak.github.io/blob/main/extra/jekyllSetup.md) file to install Jekyll
 
-### How to setup GitHub Pages
-
+### How to setup GitHub Pages  
 - [**GitHub Pages**](https://pages.github.com) is a static site hosting service. 
-    - 
+    - Andrew Etter mentions GitHub Desktop as one of the interface options for the version control. The terminal is always available for use, however many people still prefer to use version control for basic commands and GUI makes workflow much more convenient to use. Andrew argues that version control allows for easier and more convenient contribution and distribution. For example, right now you will learn how to use version control to clone repository of another person, make changes to it, and push those changes to your own repository.
 
 #### Register a [GitHub account](https://github.com) 
 1. Go to [GitHub](https://github.com)  
@@ -80,12 +80,18 @@ For this tutorial I used:
 3. Edit **_'_config.yml_** :
 ![This is format demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/editYml.gif)
 4. Replace **resume.pdf** with your pdf version of the resume
+5. (SUGGESTED) Edit **README.md** as you wish
+6. (SUGGESTED) Delete **src** and **extra** folders
 
 #### Push your changes to the repository
+1. Follow the steps shown below:
+![This is push demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/editYml.gif)
 
 #### View your website :sparkles:
 1. Open browser
-2. Go to the **_yourusername.github.io_**  
+2. Go to the **_https://yourusername.github.io_**  
+3. Enjoy your own static website :tada:
+
 ## More Resources
 
 - [Interactive markdown tutorial 1](https://www.markdowntutorial.com)  
