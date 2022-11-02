@@ -59,8 +59,10 @@ For this tutorial I used:
 #### Clone repository to the computer
 1. Go to **_yourusername.github.io_**  
 2. Copy the link 
-![This is Demo Gif](demo.gif)
-
+![This is copy demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/copyLink.gif)
+3. Open the GitHub Desktop
+4. Clone repository
+![This is copy demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/cloneRepo.gif)
 
 
 ### How to setup Jekyll
