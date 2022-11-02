@@ -1,7 +1,7 @@
 # How to host a resume on GitHub Pages.
 
 ### [Demo Website](http://nuridak.github.io/)  
-![This is resume demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/editYml.gif)
+![This is resume demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/resumeDemo.gif)
 
 ## Purpose
 
@@ -85,7 +85,7 @@ For this tutorial I used:
 
 #### Push your changes to the repository
 1. Follow the steps shown below:
-![This is push demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/editYml.gif)
+![This is push demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/pushDemo.gif)
 
 #### View your website :sparkles:
 1. Open browser
