@@ -27,8 +27,6 @@ For this tutorial I used:
 - Interface to interact with GitHub: [**GitHub Desktop**](https://desktop.github.com)
     - We will need it to clone repositories from GitHub and pushing our changes to it
 
-- **NOTE**: If you are familiar with anything that you could use instead of what I used feel free to do so
-
 ## Instructions
 
 ### How to setup Jekyll
@@ -36,66 +34,10 @@ For this tutorial I used:
 - [**Jekyll**](https://jekyllrb.com) is a static site generator
     - For installing Jekyll on operating systems other than macOS refer to [this page](https://jekyllrb.com/docs/installation/#requirements)
     - The main problem with installing Jekyll on macOS is associated with using the right ruby version. Thus, I will guide you through the process.
-    - Even though you can create static sites from scratch by yourself, generators like Jekyll make this work much easier, you just have to install it properly. :neutral_face: I chose to work with Jekyll because, as Andrew Etter said, Jekyll is the most popular static site generator meaning there are much more resources available. 
-
-#### Install [Homebrew](https://brew.sh)
-- Homebrew is the utility that will help you to install stuff that Apple did not
-1. Open Terminal
-2. Copy and Paste the following command into the Terminal:
-    > `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
-3. Press _Enter_ and wait until Homebrew is installed
-    - This command will take some time to install Homebrew, so, don't panic and be patient
-
-#### Install chruby [aka ch(ange) ruby]  
-- As it can be implied from the name we will need **chruby** to change versions of the ruby we use. This is useful for different reasons, but we will need it mainly because macOS will not let you make changes to the ruby version it has installed :pensive:.   
-1. Open Terminal  
-2. Copy and Paste the following command into the Terminal:  
-    > `brew install chruby ruby-install xz`  
-3. Press _Enter_ and wait until chruby is installed  
-  
-#### Install Ruby
-- Now we will install newest version of ruby  
-1. Open Terminal  
-2. Copy and Paste the following command into the Terminal:  
-    > `ruby-install ruby`  
-3. Press _Enter_ and wait until installation is complete  
-  
-#### Update your shell to use chruby
-- Refer to [FAQs](#faqs) to learn which shell you are using  
-1. Open Terminal  
-2. Copy and Paste the following commands into the Terminal, one at a time:  
-    - If you are using Z shell, run the following commands in the Terminal:  
-    > `echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.zshrc`  
-    > `echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.zshrc`  
-    > `echo "chruby ruby-3.1.2" >> ~/.zshrc`  
-    - If you are using Bash, run the following commands in the Terminal:  
-    > `echo "source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh" >> ~/.bash_profile`  
-    > `echo "source $(brew --prefix)/opt/chruby/share/chruby/auto.sh" >> ~/.bash_profile`  
-    > `echo "chruby ruby-3.1.2" >> ~/.bash_profile`  
-    - NOTES:  
-        - Replace **3.1.2** with the version of ruby that you installed  
-3. Close and Open Terminal  
-
-#### Change Ruby version used for our project
-1. Navigate into the folder of the repository on your computer through the Terminal.  
-    - If you named your repository as I suggested "resume", then you should be in the folder named "resume"  
-2. Run the command below to check all of the versions of the ruby installed:    
-    > `chruby`   
-3. Run the following command to set project's ruby version to the newest one:  
-    > `echo 'ruby-3.1.2' >> .ruby-version`  
-    - Instead of "3.1.2" use the latest version returned by the command from step 2  
-4. Check the ruby version by running the following command:
-    > `ruby -v`  
-    - The output should look like this:
-    > `ruby 3.1.2p20 (2022-04-12 revision 4491bb740a) [x86_64-darwin20]`
-    - Instead of "3.1.2" use the latest version returned by the command from step 2  
+    - Even though you can create static sites from scratch by yourself, generators like Jekyll make this work much easier, you just have to install it properly. :grinning: I chose to work with Jekyll because, as Andrew Etter said, Jekyll is the most popular static site generator meaning there are much more resources available. 
 
 #### Install Jekyll
-- Now we are ready to install Jekyll itself
-1. Go to Terminal 
-2. Run the following command:
-    > `gem install jekyll`
-3. Wait until the installation is finished
+1. Follow instructions from the [jekillSetup.md]() file to install Jekyll
 
 ### How to setup GitHub Pages
 
@@ -139,16 +81,19 @@ For this tutorial I used:
 ![This is format demo Gif](https://github.com/nuridak/nuridak.github.io/blob/main/src/editYml.gif)
 4. Replace **resume.pdf** with your pdf version of the resume
 
+#### Push your changes to the repository
+
+#### View your website :sparkles:
+
 ## More Resources
 
 - [Interactive markdown tutorial 1](https://www.markdowntutorial.com)  
-- [Interactive markdown tutorial 2](https://commonmark.org/help/tutorial/)  
 - [Video markdown tutorial](https://www.youtube.com/watch?v=HUBNt18RFbo)  
-- [Markdown cheat sheet](https://www.markdownguide.org/cheat-sheet/)  
-- [Career Services: Resume Workbook](https://umanitoba.ca/student/careerservices/media/Resume.pdf)   
+- [Career Services: Resume Workbook](https://umanitoba.ca/student/careerservices/media/Resume.pdf)  
+- [Andrew Etter's _Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS 
 
 ## Authors and Acknowledgments
-  
+
 #### Resume template provided by
 - [ankitsultana](https://github.com/ankitsultana/researcher)
 
@@ -159,7 +104,6 @@ For this tutorial I used:
 
 #### Principles from Andrew Etter's Book
 - [_Modern Technical Writing_](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
-
 
 ## FAQs
 
@@ -175,3 +119,9 @@ For this tutorial I used:
     > `-bash: something: command not found`  
     - You are using **Z shell** if the output looks like this:  
     > `-zsh: something: command not found`  
+
+### Why is Markdown better than a word processor?
+- Andrew Etter says that Markdown is better than a word processor because of the reasons like:
+    1. Markdown is much more human-readable, while word processor much more challenging 
+    2. Markdown is pretty straightforward to learn, while word processor requires a knowledge of a lot of tags
+    3. Markdown takes much less "text" space compared to a word processor
