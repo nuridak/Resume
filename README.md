@@ -37,7 +37,7 @@ For this tutorial I used:
     - Even though you can create static sites from scratch by yourself, generators like Jekyll make this work much easier, you just have to install it properly. :grinning: I chose to work with Jekyll because, as Andrew Etter said, Jekyll is the most popular static site generator meaning there are much more resources available. 
 
 #### Install Jekyll
-1. Follow instructions from the [jekyllSetup.md](https://github.com/nuridak/nuridak.github.io/blob/main/jekyllSetup.md) file to install Jekyll
+1. Follow instructions from the [jekyllSetup.md](https://github.com/nuridak/nuridak.github.io/blob/main/extra/jekyllSetup.md) file to install Jekyll
 
 ### How to setup GitHub Pages
 

@@ -1,6 +1,6 @@
 title: Nurida Karimbaeva
 url: "http://nuridak.github.io"
-baseurl: "/resume"
+baseurl: "/"
 
 markdown: kramdown
 
@@ -14,6 +14,6 @@ sass:
 
 nav:
  - name: "About"
-   link: "/resume/"
+   link: "/"
  - name: "Resume"
    link: "resume.pdf"
